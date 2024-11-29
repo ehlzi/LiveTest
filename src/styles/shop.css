@@ -11,6 +11,17 @@
     padding: 0 0 1rem 0;
     color: rgb(40, 40, 43);
     gap: 1rem;
+
+    transition-property: transform, padding, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.shop__item:hover {
+    transform: scale(0.95);
+    border: 1px solid rgb(249, 67, 20);
+    border-color: rgb(249, 67, 20);
+    padding: 1rem;
 }
 
 .shop__container {

@@ -16,7 +16,7 @@
 
 ## Phase 2: Component Library Development
 - [o] Build Reusable Tailwind Components
-    - [o] Responsive navigation bar with a dropdown menu   <-- ### NEED TO ADD DROPDOWN MENU
+    - [x] Responsive navigation bar with a dropdown menu
     - [x] Hero section introducing Blk.Film and its mission
     - [x] Newsletter/contact form for sign-ups (HTML5 validation included)
     - [x] Footer with links and copyright information
@@ -41,19 +41,19 @@
     - [x] Add HTML5 or JavaScript validation for inputs
 
 - [ ] Interactive Elements
-    - [o] Implement hover effects for menu items and buttons using Tailwind pseudo-classes
-    - [o] Add transitions for smoother interactions (e.g., hover effects and modal displays)
+    - [x] Implement hover effects for menu items and buttons using Tailwind pseudo-classes
+    - [x] Add transitions for smoother interactions (e.g., hover effects and modal displays)
     - [o] Include scroll-triggered animations for dynamic visuals
 
 ### WORKING ###
 
 ## Phase 4: Advanced CSS Features
-- [ ] Use Pseudo-Class Selectors
-    - [ ] Apply `:hover`, `:focus`, `:active`, and `:nth-child` pseudo-classes
+- [x] Use Pseudo-Class Selectors
+    - [x] Apply `:hover`, `:focus`, `:active`, and `:nth-child` pseudo-classes
 
 - [ ] Incorporate CSS Transforms and Animations
     - [ ] Smooth scrolling for navigation links
-    - [ ] Subtle transforms (e.g., scale or rotate effects)
+    - [x] Subtle transforms (e.g., scale or rotate effects)
     - [ ] Animated transitions for gallery showcases or hero section text
 
 - [x] Add Custom Properties and Utilities
