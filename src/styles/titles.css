@@ -1,0 +1,11 @@
+.main__title,
+.film-type__title,
+.shop__title,
+.tv__title,
+.blog__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //align-items: left;
+    color: rgb(250, 249, 246);
+}

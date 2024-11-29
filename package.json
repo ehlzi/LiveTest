@@ -1,0 +1,24 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "Final project for UCSD Advanced HTML and CSS",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i src/styles/tailwind.css -o dist/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehlzi/UCSD_Advanced_Homework.git"
+  },
+  "author": "Ervin Elzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehlzi/UCSD_Advanced_Homework/issues"
+  },
+  "homepage": "https://github.com/ehlzi/UCSD_Advanced_Homework#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "taos": "^1.0.5"
+  }
+}
