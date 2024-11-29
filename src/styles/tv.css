@@ -32,8 +32,21 @@
 .tv__splashimage-container {
     display: flex;
     justify-content: center;
+    border: none;
+}
+
+#video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+#video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: black;
+    height: 100%;
 }
 
 /* Mobile (up to 767px) */
