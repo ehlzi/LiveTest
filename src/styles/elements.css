@@ -122,9 +122,10 @@
 }
 
 /* Tablet (768px to 1023px) */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1279px) {
+
     .film-type__elements {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .shop__elements {
@@ -162,10 +163,11 @@
     .news__item-sign-up {
         width: 100%;
     }
+
 }
 
 /* Desktop (1024px and up) */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
 
     .shop__elements {
         display: flex;

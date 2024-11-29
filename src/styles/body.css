@@ -7,7 +7,10 @@
 
 html, body {
     height: 100%;
-    overflow-x: hidden;
+}
+
+html {
+    overflow-x: auto;
 }
 
 body {
@@ -143,7 +146,7 @@ main {
 }
 
 /* Tablet (768px to 1023px) */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1279px) {
 
     .blog__article-container {
         width: 100%;
@@ -157,7 +160,7 @@ main {
 }
 
 /* Desktop (1024px and up) */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
 
     .blog__article-container {
         width: 50%;
