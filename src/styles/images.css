@@ -70,7 +70,7 @@
 
     .splash__image {
         width: 100%;
-        height: 50vh;
+        height: auto;
         object-position: 0 75%;
     }
 

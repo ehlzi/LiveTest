@@ -1,5 +1,24 @@
+.footer__toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
+
+    #footer-content {
+        display: none;
+    }
+
+    .rights__centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
 
     .footer__example1 {
         display: grid;
@@ -33,6 +52,10 @@
 /* Tablet (768px to 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    .footer__toggle-button {
+        display: none;
+    }
+
     .footer__example1 {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -65,6 +88,10 @@
 
 /* Desktop (1024px and up) */
 @media (min-width: 1024px) {
+
+    .footer__toggle-button {
+        display: none;
+    }
 
     .footer__example1 {
         display: grid;
