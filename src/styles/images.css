@@ -5,6 +5,7 @@
     padding: 0.5rem;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+    width: 100%;
 }
 
 .splash__image {
@@ -42,6 +43,10 @@
 
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
+
+    .shop__image-overlay-text {
+        font-size: 0.8rem;
+    }
 
     .splash__image {
         width: 100%;
@@ -83,15 +88,14 @@
         object-fit: cover;
     }
 
-    .tv__image {
-        height: 20vh;
-        object-fit: cover;
-    }
-
 }
 
 /* Desktop (1024px and up) */
 @media (min-width: 1280px) {
+
+    .shop__image-overlay-text {
+        font-size: 1rem;
+    }
 
     .splash__image {
         width: 100%;

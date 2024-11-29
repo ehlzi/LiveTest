@@ -18,11 +18,24 @@ main form label {
 
 main form input[type="text"],
 main form input[type="email"] {
-    //padding: 0.5rem;
-    //border-radius: 4px;
 }
 
 main form input[type="submit"] {
     padding: 0.75rem;
     cursor: pointer;
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+
+    .form {
+        padding: 2rem;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .form label {
+        display: none;
+    }
+
 }

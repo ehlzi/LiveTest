@@ -1,0 +1,15 @@
+.bio__elements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.bio__container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0 0 1rem 0;
+    color: rgb(250, 249, 246);
+    border-bottom: 0.1rem solid rgb(238, 207, 109);
+}
