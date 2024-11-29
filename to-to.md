@@ -67,7 +67,7 @@
     - [ ] Resolve any browser-specific rendering issues
 
 - [ ] Accessibility Testing
-    - [ ] Run a WAVE evaluation to identify and fix accessibility issues
+    - [x] Run a WAVE evaluation to identify and fix accessibility issues
     - [ ] Test with screen readers and verify keyboard navigation
     - [ ] Confirm sufficient color contrast ratios
 
@@ -80,7 +80,7 @@
 - [x] Verify all navigation links work correctly
 - [x] Confirm the layout is fully responsive on all screen sizes
 - [x] Test form submission, including validation and styling
-- [ ] Validate HTML5 and CSS3 code using W3C tools
+- [x] Validate HTML5 and CSS3 code using W3C tools
 - [x] Review animations, transitions, and transforms for consistency
 - [ ] Ensure accessibility compliance based on WCAG 2.1 guidelines
 - [x] Deploy the project to GitHub Pages or another hosting platform
