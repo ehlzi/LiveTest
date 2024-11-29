@@ -9,6 +9,13 @@
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
 
+    .github__centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
     #footer-content {
         display: none;
     }
