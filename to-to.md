@@ -61,20 +61,20 @@
     - [x] Create utility classes for repeated styles (e.g., margins, paddings)
 
 ## Phase 5: Testing & Optimization
-- [ ] Cross-Browser Testing
-    - [ ] Test the site on Chrome, Safari, and Firefox
-    - [ ] Verify CSS compatibility using [caniuse.com](https://caniuse.com)
-    - [ ] Resolve any browser-specific rendering issues
+- [x] Cross-Browser Testing
+    - [x] Test the site on Chrome, Safari, and Firefox
+    - [x] Verify CSS compatibility using [caniuse.com](https://caniuse.com)
+    - [x] Resolve any browser-specific rendering issues
 
-- [ ] Accessibility Testing
+- [x] Accessibility Testing
     - [x] Run a WAVE evaluation to identify and fix accessibility issues
-    - [ ] Test with screen readers and verify keyboard navigation
-    - [ ] Confirm sufficient color contrast ratios
+    - [x] Test with screen readers and verify keyboard navigation
+    - [x] Confirm sufficient color contrast ratios
 
-- [ ] Performance Optimization
+- [x] Performance Optimization
     - [x] Optimize and compress images for faster load times
-    - [ ] Minify CSS and ensure efficient use of Tailwind classes
-    - [ ] Check page speed on both desktop and mobile
+    - [x] Minify CSS and ensure efficient use of Tailwind classes
+    - [x] Check page speed on both desktop and mobile
 
 ## Final Checklist
 - [x] Verify all navigation links work correctly
@@ -82,6 +82,6 @@
 - [x] Test form submission, including validation and styling
 - [x] Validate HTML5 and CSS3 code using W3C tools
 - [x] Review animations, transitions, and transforms for consistency
-- [ ] Ensure accessibility compliance based on WCAG 2.1 guidelines
+- [] Ensure accessibility compliance based on WCAG 2.1 guidelines
 - [x] Deploy the project to GitHub Pages or another hosting platform
 - [ ] Write a short project summary or README file describing your work and design choices

@@ -1,0 +1,1 @@
+.bio__article,.blog__article,.film-type__article{display:flex;flex-direction:column;width:100%;gap:1rem}.film-type__article{justify-content:center;height:auto;gap:.5rem}.blog__article{justify-content:center;padding:1rem}

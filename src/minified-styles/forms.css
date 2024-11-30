@@ -1,0 +1,1 @@
+.form__container{display:flex;justify-content:center;align-items:center}.form{display:flex;flex-direction:column;padding:2rem;margin:1rem;gap:1rem}main form label{font-weight:700}main form input[type=submit]{padding:.75rem;cursor:pointer}@media (max-width:767px){.form{padding:2rem;margin:1rem;gap:1rem}.form label{display:none}}
