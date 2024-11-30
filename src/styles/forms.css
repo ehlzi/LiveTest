@@ -7,9 +7,6 @@
 .form {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    margin: 1rem;
-    gap: 1rem;
 }
 
 main form label {
@@ -37,5 +34,36 @@ main form input[type="submit"] {
     .form label {
         display: none;
     }
+
+}
+
+/* Tablet (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1279px) {
+
+    .form {
+        padding: 2rem;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .form label {
+        display: none;
+    }
+
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1280px) {
+
+    .form {
+        padding: 2rem;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .form label {
+        display: none;
+    }
+
 
 }

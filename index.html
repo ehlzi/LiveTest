@@ -8,16 +8,16 @@
     <link href="./src/minified-styles/navbar.css" rel="stylesheet">
     <link href="./src/minified-styles/body.css" rel="stylesheet">
     <link href="./src/minified-styles/bio.css" rel="stylesheet">
-    <link href="src/minified-styles/film-types.css" rel="stylesheet">
-    <link href="src/minified-styles/shop.css" rel="stylesheet">
-    <link href="src/minified-styles/blog.css" rel="stylesheet">
-    <link href="src/minified-styles/news.css" rel="stylesheet">
-    <link href="src/minified-styles/tv.css" rel="stylesheet">
+    <link href="./src/minified-styles/film-types.css" rel="stylesheet">
+    <link href="./src/minified-styles/shop.css" rel="stylesheet">
+    <link href="./src/minified-styles/blog.css" rel="stylesheet">
+    <link href="./src/minified-styles/news.css" rel="stylesheet">
+    <link href="./src/minified-styles/tv.css" rel="stylesheet">
     <link href="./src/minified-styles/titles.css" rel="stylesheet">
     <link href="./src/minified-styles/articles.css" rel="stylesheet">
     <link href="./src/minified-styles/forms.css" rel="stylesheet">
     <link href="./src/minified-styles/images.css" rel="stylesheet">
-    <link href="./src/styles/animations.css" rel="stylesheet">
+    <link href="./src/minified-styles/animations.css" rel="stylesheet">
     <link href="./src/minified-styles/footer.css" rel="stylesheet">
     <link href="./dist/tailwind.css" rel="stylesheet">
 </head>
@@ -48,7 +48,7 @@
                 <a href="#bio" class="aux__button-nav2" aria-label="About">ABOUT</a>
             </li>
             <li>
-                <a href="#" class="aux__button-nav2" aria-label="Contact">CONTACT</a>
+                <a href="#contact" class="aux__button-nav2" aria-label="Contact">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -65,8 +65,7 @@
 
     <!-- Below is the code for the bio -->
 
-    <section id="bio" class="bio__container scroll-animation">
-        <h2 class="hidden">Bio</h2>
+    <div id="bio" class="bio__container scroll-animation">
 
         <div class="bio__elements container mx-auto scroll-animation">
 
@@ -163,12 +162,12 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
     <!-- Below is the code for the film type -->
 
-    <section id="film-type" class="film-type__container scroll-animation">
-        <h2 class="hidden">Film Type</h2>
+    <div id="film-type" class="film-type__container scroll-animation">
+
         <div class="film-type__title scroll-animation">
             <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                 ALL FILM TYPES
@@ -282,14 +281,14 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
     <!-- Below is the code for the shop cards -->
 
-    <section id="shop" class="shop__container scroll-animation">
-        <h2 class="hidden">Shop</h2>
+    <div id="shop" class="shop__container scroll-animation">
+
         <div class="shop__title scroll-animation">
-            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-blkfilm-whisperfrost md:text-5xl lg:text-6xl">
                 SHOP OUR STORE</h2>
 
             <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
@@ -477,15 +476,15 @@
 
         </section>
 
-    </section>
+    </div>
 
     <!-- Below is the code for the blog cards -->
 
-    <section id="blog" class="blog__container scroll-animation">
-        <h2 class="hidden">Blog</h2>
+    <div id="blog" class="blog__container scroll-animation">
+
         <section class="blog__title scroll-animation">
 
-            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-blkfilm-whisperfrost md:text-5xl lg:text-6xl">
                 SEE WHAT'S NEW</h2>
 
             <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
@@ -562,14 +561,14 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
     <!-- Below is the code for the TV section -->
 
-    <section id="tv" class="tv__container scroll-animation">
-        <h2 class="hidden">TV</h2>
+    <div id="tv" class="tv__container scroll-animation">
+
         <section class="tv__title scroll-animation">
-            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-blkfilm-whisperfrost md:text-5xl lg:text-6xl">
                 TUNE IN</h2>
 
             <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
@@ -730,7 +729,111 @@
 
         </div>
 
-    </section>
+    </div>
+
+    <div id="contact" class="contact__container">
+
+        <section class="mb-4 mt-4 text-center scroll-animation">
+
+            <h2 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-blkfilm-whisperfrost md:text-5xl lg:text-6xl">
+                CONTACT US</h2>
+
+            <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                Got something for us? Let us know!
+            </p>
+
+        </section>
+
+        <div class="form__container scroll-animation">
+
+            <form class="form max-w-md mx-auto">
+
+                <p class="text-gray-500 dark:text-gray-400">
+                    Send us a message, and we'll get back to you as soon as we can! (Don't be shy, we're here to help!)
+                </p>
+
+                <label for="firstname" class="text-gray-500 dark:text-gray-400">First Name</label>
+                <input type="text" id="firstname" name="firstname" class="
+       bg-gray-50
+       border
+       border-gray-300
+       text-gray-900
+       text-sm
+       rounded-sm
+       focus:ring-blue-500
+       focus:border-blue-500
+       block w-full p-2.5
+       dark:bg-blkfilm-urbanshadow
+       dark:border-gray-600
+       dark:placeholder-gray-400
+       dark:text-white
+       dark:focus:ring-blue-500
+       dark:focus:border-blue-500" placeholder="First Name" required>
+
+                <label for="lastname" class="text-gray-500 dark:text-gray-400">Last Name</label>
+                <input type="text" id="lastname" name="lastname" class="
+       bg-gray-50
+       border
+       border-gray-300
+       text-gray-900
+       text-sm
+       rounded-sm
+       focus:ring-blue-500
+       focus:border-blue-500
+       block w-full p-2.5
+       dark:bg-blkfilm-urbanshadow
+       dark:border-gray-600
+       dark:placeholder-gray-400
+       dark:text-white
+       dark:focus:ring-blue-500
+       dark:focus:border-blue-500" placeholder="Last Name" required>
+
+                <label for="contact-email" class="text-gray-500 dark:text-gray-400">Email</label>
+                <input type="email" id="contact-email" name="contact-email" class="
+       bg-gray-50
+       border
+       border-gray-300
+       text-gray-900
+       text-sm
+       rounded-sm
+       focus:ring-blue-500
+       focus:border-blue-500
+       block
+       w-full
+       p-2.5
+       dark:bg-blkfilm-urbanshadow
+       dark:border-gray-600
+       dark:placeholder-gray-400
+       dark:text-white
+       dark:focus:ring-blue-500
+       dark:focus:border-blue-500" placeholder="Email" required>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" class="bg-gray-50
+       border
+       border-gray-300
+       text-gray-900
+       text-sm
+       rounded-sm
+       focus:ring-blue-500
+       focus:border-blue-500
+       block
+       w-full
+       p-2.5
+       dark:bg-blkfilm-urbanshadow
+       dark:border-gray-600
+       dark:placeholder-gray-400
+       dark:text-white
+       dark:focus:ring-blue-500
+       dark:focus:border-blue-500" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" class="aux__button2" value="Subscribe">
+
+            </form>
+
+        </div>
+
+    </div>
 
 </main>
 
@@ -866,6 +969,7 @@
         });
     });
 </script>
+
 <!-- Side wide animation
 <script>
     document.addEventListener('DOMContentLoaded', function () {
