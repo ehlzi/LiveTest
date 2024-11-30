@@ -869,7 +869,7 @@
                     </li>
 
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Contact</a>
+                        <a href="#contact" class="hover:underline">Contact</a>
                     </li>
 
                 </ul>
@@ -953,42 +953,7 @@
 
 <script src="./src/scripts/navbar.js"></script>
 <script src="./src/scripts/footer.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('scroll-animation-visible');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.scroll-animation').forEach(element => {
-            observer.observe(element);
-        });
-    });
-</script>
-
-<!-- Side wide animation
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('scroll-animation-visible');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('body *').forEach(element => {
-            element.classList.add('scroll-animation');
-            observer.observe(element);
-        });
-    });
-</script>
--->
+<script src="./src/scripts/scroll-animation.js"></script>
 </body>
 
 </html>
