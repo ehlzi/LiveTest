@@ -95,3 +95,15 @@
     background-color: rgb(250, 249, 246);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+@media (max-width: 767px) {
+
+.aux__button-nav {
+    border-bottom: 1px solid rgb(249, 67, 20);
+}
+
+.aux__button-nav2 {
+    border-bottom: 1px solid #616161;
+}
+
+}
