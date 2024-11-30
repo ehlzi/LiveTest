@@ -20,6 +20,7 @@ module.exports = {
         dynamicblaze: "#f94314",
         sunsetglow: "#EECF6D",
         mistylagoon: "#9AC6C5",
+        1100: "#858c99",
       },
       black: "#000",
       white: "#fff",
